@@ -33,3 +33,4 @@ npm install
 - Configure the .env file to your preference
 
 ---
+Use `npm start` or `node index.js`
