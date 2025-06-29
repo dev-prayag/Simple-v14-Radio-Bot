@@ -3,7 +3,8 @@ import { joinVoiceChannel, createAudioPlayer, createAudioResource, entersState, 
 import prism from 'prism-media';
 import dotenv from 'dotenv';
 import Prayag from 'prayag';
-import { radioCommand, stopCommand } from './commands/radio.js';
+import { radioCommand } from './commands/radio.js';
+import { stopCommand } from './commands/stop.js';
 
 dotenv.config();
 
