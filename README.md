@@ -33,4 +33,4 @@ npm install
 - Configure the .env file to your preference
 
 ---
-Use `npm start` or `node index.js`
+At last, use `npm start` or `node index.js` in your terminal/console to run the bot
