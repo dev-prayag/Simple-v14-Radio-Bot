@@ -26,7 +26,7 @@ A simple Discord bot that streams radio URLs into a voice channel using slash co
 git clone https://github.com/YOUR_USERNAME/radio-bot.git
 cd radio-bot
 npm install
-
+```
 ---
 
 ## 📂 Setup
