@@ -35,9 +35,8 @@ const players = new Map();
 })();
 
 client.once('ready', async () => {
-  console.log(`✅ Logged in as ${client.user.tag}`);
+  console.log(`Karliya ${client.user.tag} se login`);
 
-  // 🔥 AUTO-RESUME on startup
   for (const [guildId, guild] of client.guilds.cache) {
     const lastStation = db.get(`lastStation:${guildId}`);
     const lastVC = db.get(`lastVC:${guildId}`);
